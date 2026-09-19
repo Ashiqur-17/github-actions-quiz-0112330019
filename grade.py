@@ -2,7 +2,7 @@
 
 def get_grade(marks):
 
-    if marks >= 80: return "A"
+    if marks >= 90: return "A"
 
     if marks >= 70: return "B"
 
@@ -10,6 +10,4 @@ def get_grade(marks):
 
     if marks >= 50: return "D"
 
-
     return "F"
-
